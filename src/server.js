@@ -1,13 +1,9 @@
-import express from 'express'
 import 'dotenv/config'
-
-const app = express()
-
-app.use(express.json())
-
-app.get('/', (req, res) => {
-    res.json({message: "api running"})
-})
+import app from './app.js'
+import './routes/create.js'
+import './routes/read.js'
+import './routes/update.js'
+import './routes/delete.js'
 
 app.listen(process.env.PORT, () => {
     console.log('server running')
