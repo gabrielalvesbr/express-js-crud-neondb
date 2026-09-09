@@ -122,3 +122,8 @@ src/
 database/
 └── init.sql
 ```
+## Autor
+
+Desenvolvido por **Gabriel Alves de Sousa**.
+
+Projeto desenvolvido para estudo e prática de criação de APIs REST utilizando **Express.js** e **NeonDB**.
