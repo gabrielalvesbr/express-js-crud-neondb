@@ -1,6 +1,7 @@
 import app from "../app.js";
 import sql from "../config/database.js";
 
+// Exclui um usuário pelo ID
 app.delete('/delete/:id', async (req, res) => {
     const id = Number(req.params.id);
 

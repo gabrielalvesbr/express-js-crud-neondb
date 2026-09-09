@@ -1,6 +1,7 @@
 import app from "../app.js";
 import sql from "../config/database.js";
 
+// Atualiza o nome(name) de um usuário pelo ID
 app.put('/update/:id', async (req, res) => {
     const id = Number(req.params.id)
     const { name } = req.body

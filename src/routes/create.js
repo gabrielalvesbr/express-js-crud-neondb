@@ -1,6 +1,7 @@
 import app from "../app.js";
 import sql from "../config/database.js";
 
+// Cria um novo usuário no banco de dados
 app.post('/create', async (req, res) => {
 
     const { name } = req.body;
